@@ -7,8 +7,7 @@ import streamlit as st
 st.set_page_config(page_title="Data Sweeper", layout="wide")
 
 st.title("Data Sweeper")
-st.write(
-    """Transform your files between CSV and Excel formats built-in data cleaning and 
+st.write("""Transform your files between CSV and Excel formats built-in data cleaning and 
 visualization!"""
 )
 
