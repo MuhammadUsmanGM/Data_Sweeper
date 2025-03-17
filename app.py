@@ -15,11 +15,11 @@ st.markdown(
     """
     <style>
     .stApp {
-        background: linear-gradient(to right,rgb(0, 68, 255), #40E0D0);
+        background: linear-gradient(to right,rgb(114, 2, 81),rgb(5, 136, 123));
     }
     
     .css-1d391kg { /* Sidebar background */
-        background: linear-gradient(to bottom, #0284C7,rgb(13, 219, 255));
+        background: linear-gradient(to bottom,rgb(9, 108, 158),rgb(9, 130, 151));
     }
     </style>
     """,
