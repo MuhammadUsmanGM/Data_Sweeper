@@ -11,6 +11,21 @@ st.write("""Transform your files between CSV and Excel formats built-in data cle
 visualization!"""
 )
 
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background: linear-gradient(to right,rgb(0, 68, 255), #40E0D0);
+    }
+    
+    .css-1d391kg { /* Sidebar background */
+        background: linear-gradient(to bottom, #0284C7,rgb(13, 219, 255));
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 upload_file = st.file_uploader(
     "Upload you files (CSV or Excel): ",
     type=["csv", "xlsx"],
